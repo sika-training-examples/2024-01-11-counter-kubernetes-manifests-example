@@ -24,6 +24,10 @@ spec:
               value: redis
             - name: EXTRA_TEXT
               value: T-Mobile
+          startupProbe:
+            httpGet:
+              path: /readyz
+              port: http
           resources:
             requests:
               cpu: 100m

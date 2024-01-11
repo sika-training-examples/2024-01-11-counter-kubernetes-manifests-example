@@ -26,6 +26,10 @@ spec:
               value: "#ffffff"
             - name: BACKGROUND_COLOR
               value: "#E20074"
+          startupProbe:
+            httpGet:
+              path: /api/livez
+              port: http
           resources:
             requests:
               cpu: 100m
