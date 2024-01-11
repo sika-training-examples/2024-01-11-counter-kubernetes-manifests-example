@@ -1,0 +1,1 @@
+# counter-kubernetes-manifests-example
