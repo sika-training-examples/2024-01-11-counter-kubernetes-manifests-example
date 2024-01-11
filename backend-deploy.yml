@@ -26,8 +26,8 @@ spec:
               value: T-Mobile
           resources:
             requests:
-              cpu: 50m
-              memory: 30Mi
-            limits:
               cpu: 100m
-              memory: 60Mi
+              memory: 100Mi
+            limits:
+              cpu: 200m
+              memory: 200Mi
