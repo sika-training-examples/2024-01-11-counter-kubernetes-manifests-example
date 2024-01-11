@@ -22,6 +22,10 @@ spec:
           env:
             - name: API_ORIGIN
               value: http://backend
+            - name: FONT_COLOR
+              value: "#ffffff"
+            - name: BACKGROUND_COLOR
+              value: "#E20074"
           resources:
             requests:
               cpu: 100m

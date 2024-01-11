@@ -22,6 +22,8 @@ spec:
           env:
             - name: REDIS
               value: redis
+            - name: EXTRA_TEXT
+              value: T-Mobile
           resources:
             requests:
               cpu: 50m
